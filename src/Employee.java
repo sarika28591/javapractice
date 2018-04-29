@@ -11,15 +11,15 @@ public class Employee {
 	}
 	
 	public void empAge(int empAge) {
-	empAge = age;	
+	age = empAge;
 	}
 	
 	public void empDestination(String empDestination) {
-		empDestination = destination;
+		destination = empDestination;
 	}
 	
 	public void empSalary(double empSalary) {
-	empSalary = salary;
+	salary = empSalary;
 }
 	public void printEmployee() {
 		System.out.println("name is " + name);
@@ -28,15 +28,5 @@ public class Employee {
 		System.out.println("salary is " + salary);
 	}
 	
-	/*public static void main(String[] args) {
-		// TODO Auto-generated method stub
-     Employee one = new Employee("sarika");
-     
-     one.empAge(25);
-     one.empDestination("pune");
-     one.empSalary(1000);
-     one.printEmployee();
-     
-	}
-	*/
+	
 }
