@@ -1,12 +1,13 @@
 package operator;
 
-public class inttest {
+public class Singlestatic {
+static void method() {
+System.out.println("method");
+}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Integer x = 10;
-x = x + 10;
-System.out.println(x);
+		method();
 	}
 
 }
