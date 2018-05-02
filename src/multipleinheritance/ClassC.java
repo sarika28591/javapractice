@@ -10,8 +10,7 @@ public class ClassC {
 	public static void main(String[] args) {
 	ClassC objC = new ClassC();
 	objC.add();
-
-		}
-
 	}
+		
 
+}

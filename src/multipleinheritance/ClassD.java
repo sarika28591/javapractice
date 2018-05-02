@@ -1,6 +1,6 @@
 package multipleinheritance;
 
-public class ClassD {
+public class ClassD extends ClassC{
 
 	
 		int a=3,b =3;
