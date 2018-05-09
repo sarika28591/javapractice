@@ -14,7 +14,7 @@ public class Method3 {
 	public static void main(String[] args) {
 		// creating object
      Method3 obj = new Method3();
-     obj.studentRank(300);
+     obj.studentRank(700);
 	}
 
 }

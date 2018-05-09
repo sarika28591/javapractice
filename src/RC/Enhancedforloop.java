@@ -10,6 +10,14 @@ public class Enhancedforloop {
     	 
      }
      
+     String[] flowers = new String[2];
+     flowers[0] = "rose";
+     flowers[1] = "lily";
+     
+     for(String fl:flowers) {
+    	 System.out.println(fl);
+     }
+     
 	}
 
 }
